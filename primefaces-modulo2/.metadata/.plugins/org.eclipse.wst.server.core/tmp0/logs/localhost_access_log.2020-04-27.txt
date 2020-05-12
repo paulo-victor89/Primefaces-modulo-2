@@ -1,0 +1,14 @@
+127.0.0.1 - - [27/Apr/2020:18:30:08 -0300] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [27/Apr/2020:18:30:31 -0300] "GET /livraria/livro.xhtml HTTP/1.1" 404 733
+0:0:0:0:0:0:0:1 - - [27/Apr/2020:18:30:31 -0300] "GET /favicon.ico HTTP/1.1" 404 720
+127.0.0.1 - - [27/Apr/2020:18:39:07 -0300] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [27/Apr/2020:18:39:42 -0300] "GET /livraria/livro.xhtml HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [27/Apr/2020:18:39:43 -0300] "GET /livraria/login.xhtml HTTP/1.1" 200 1266
+0:0:0:0:0:0:0:1 - - [27/Apr/2020:18:39:44 -0300] "GET /livraria/javax.faces.resource/logo.png.xhtml;jsessionid=2C8981FD8B99259CCB672E6587E4A7A5?ln=img HTTP/1.1" 200 12682
+0:0:0:0:0:0:0:1 - - [27/Apr/2020:18:41:13 -0300] "POST /livraria/login.xhtml;jsessionid=2C8981FD8B99259CCB672E6587E4A7A5 HTTP/1.1" 500 12647
+127.0.0.1 - - [27/Apr/2020:18:42:51 -0300] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [27/Apr/2020:18:42:53 -0300] "GET /livraria/login.xhtml;jsessionid=2C8981FD8B99259CCB672E6587E4A7A5 HTTP/1.1" 200 1178
+0:0:0:0:0:0:0:1 - - [27/Apr/2020:18:42:53 -0300] "GET /livraria/javax.faces.resource/logo.png.xhtml?ln=img HTTP/1.1" 200 12682
+0:0:0:0:0:0:0:1 - - [27/Apr/2020:18:43:15 -0300] "POST /livraria/login.xhtml HTTP/1.1" 500 17325
+0:0:0:0:0:0:0:1 - - [27/Apr/2020:18:47:14 -0300] "GET /livraria/login.xhtml HTTP/1.1" 200 1177
+0:0:0:0:0:0:0:1 - - [27/Apr/2020:18:47:32 -0300] "POST /livraria/login.xhtml HTTP/1.1" 500 17325
